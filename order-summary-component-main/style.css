@@ -1,0 +1,107 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution > a {
+  color: hsl(228, 99%, 33%);
+}
+body {
+  margin: 0;
+  background-color: #e0e8ff;
+}
+.top-image {
+  margin: 10vh auto 0 auto;
+  background-image: url(./images/illustration-hero.svg);
+  background-position: center;
+  background-size: cover;
+  max-width: 25%;
+  min-height: 25vh;
+  background-repeat: no-repeat;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.bg_white {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 0 auto 10vh auto;
+  max-width: 25%;
+  min-height: 50vh;
+  padding: 0 20px;
+  background-color: white;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  text-align: center;
+  align-items: center;
+}
+h1 {
+  margin: 0px;
+}
+
+* {
+  box-sizing: border-box;
+}
+.plan {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 80%;
+  background-color: #f8f9fe;
+  border-radius: 10px;
+  padding: 10px 0
+}
+}
+.p_sized {
+  margin: 5vh auto 0 auto;
+  max-width: 60%;
+}
+.bg_svg {
+  position: fixed;
+  top: 0;
+  z-index: -1;
+  width: 100vw;
+}
+.btn{
+  background-color: #382ae1;
+  border-radius: 10px;
+  width: 80%;
+  padding: 10px 0;
+  text-align: center;
+  color: #ffffff;
+}
+.big-txt{
+  font-size: 16px;
+  font-weight: bold;
+}
+.left
+{
+ text-align: left;
+}
+.order
+{
+  font-size: 30px;
+  font-weight: 900;
+}
+
+@media only screen and (max-width: 600px) {
+  .top-image 
+  {
+    max-width: 80%;
+  }
+  .bg_white 
+  {
+    max-width: 80%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .top-image 
+  {
+    max-width: 80%;
+  }
+  .bg_white 
+  {
+    max-width: 80%;
+  }
+}
